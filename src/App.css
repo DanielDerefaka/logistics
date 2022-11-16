@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/* Navbar */
+.img{
+  width: 40%;
+}
+.lk{
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+.nnn{
+  background-color: white !important;
+  width: 100%;
+  z-index: 10000;
+}
+.bgj{
+  background-color: black;
+}
+.dropdown-item a{
+  text-decoration: none;
+  color: black;
+}
+.dropdown-item a:hover{
+  color: red;
+}
+.nav-link a:hover{
+  color: red;
+}
+.nav-link a{
+  text-decoration: none;
+  color: black;
+}
+.ul1{
+  color: black ;
+  font-weight: 500;
+}
+/* Button for Nav */
+.btn{
+  background-color: #D5343A;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  text-decoration: none;
+}
+.bb{
+  text-decoration: none;
+  color: white !important;
+}
+.btn:focus{
+  background-color: red !important;
+}
+/* End of Button  */
+/* Navlink */
+.nav-link{
+  color: black;
+  margin: 10px;
+
+}
+.nav-link:hover{
+  color: red;
+}
+
+.dropdown-menu{
+  border: none;
+  filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+}
+.dropdown-item:hover{
+  color: red;
+  background-color: white;
+
+}
+/* End Navbar */
+@media (prefers-reduced-motion: no-preference) {
+  .immg {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width:600px){
+  .nav-link{
+
+    margin: 5px;
+  
+  }
+}
