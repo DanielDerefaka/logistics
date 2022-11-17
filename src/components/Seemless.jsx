@@ -7,10 +7,10 @@ import quick from '../img/quick.PNG'
 
 const Seemless = () => {
   return (
-    <div>
+    <div className='sen'>
         <h3 className='seem'> Seamless delivery services</h3>
         <div className='container mx-auto'>
-            <div className='row fl'>
+            <div className='row fl sen'>
                 <div className='col-md-3 col2'>
                 <img src={bag} className="imgd" alt="" />
                 <h4 className='tct'> Ship Now</h4>

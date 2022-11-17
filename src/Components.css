@@ -22,6 +22,7 @@ body{
 .col2:hover{
     background-color: black;
     color: white;
+    cursor: pointer;
 }
 .imgd{
     width: 70px;
@@ -91,6 +92,45 @@ font-size: 20px;
     margin-left: 20px;
   }
 
+  .sen{
+    width: 100%;
+  }
+
+  /* Burden */
+  .burden{
+    background-color: #f3f4f6!important;
+  }
+
+  .mt{
+    margin-top: 10%;
+   
+  }
+  .mt h2{
+    font-weight: 700;
+  }
+  .mn{
+    color: #D5343A;
+
+  }
+  .st{
+    width: 100%;
+  }
+  .mn2{
+    margin-top: 5%;
+  }
+  .imgf{
+    width: 40px;
+  }
+  .mtc{
+margin-top: 20px;
+  }
+  .mtcc{
+    font-weight: 700;
+
+  }
+  .mtfh{
+    margin-top: 30px;
+  }
   @media(max-width:500px){
     .btnp2{
        margin-top: 30px;
@@ -102,4 +142,32 @@ font-size: 20px;
         font-size: 20px;
         margin-top: 5px;
       }
+      .df{
+        width: 30%;
+      }
+      .se{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+      .fl{
+        text-align: center;
+        justify-content: center;
+        align-items: center;  
+        
+      
+    }
+  }
+  @media(max-width:400px){
+    .fl{
+      margin-left: 50px;
+      
+    
+  }
+  .seem{
+text-align: center;
+display: flex;
+margin-left: 70px;
+  }
   }

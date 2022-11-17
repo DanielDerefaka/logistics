@@ -5,6 +5,7 @@ body{
 
   background-color: #f3f4f6 !important;
   font-family: 'inter', sans-serif !important;
+  width: 100%;
 }
 
 .App {
@@ -197,6 +198,9 @@ margin-left: 32%;
  border: none;
 
 }
+.bd{
+  width: 100%;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -245,7 +249,28 @@ margin-left: 32%;
     display:flex;
     color: white;
   }
+  body{
+    width: 100%;
+  }
+  .bgt{
+    
+    width: 600px;
+  }
+  
+.en{
+
+  background-image: url(img/full.jpeg);
+  background-size: cover;
+  /* background-attachment: fixed; */
+  height: 500px;
+  width: 600px;
+  background-blend-mode: multiply;
+  background-color: grey;
+  
+  }
+  
 }
+
 @media (max-width:500px){
   .bgt{
     background-color: black;
@@ -254,10 +279,11 @@ margin-left: 32%;
     text-align: center;
     justify-content: center;
     font-size: 13px;
- 
+ position: absolute;
     margin-top: 80px;
-    width: 105%;
+    display: flexbox;
     margin-bottom: 50px;
+    width: 470px;
   
   }
   .en{
@@ -266,7 +292,9 @@ margin-left: 32%;
     background-size: cover;
     /* background-attachment: fixed; */
     height: 500px;
-    width: 110%;
+    width: 470px;
+    background-blend-mode: multiply;
+    background-color: grey;
     
     }
     .ab{
@@ -276,39 +304,6 @@ margin-left: 32%;
       text-align: center;
       justify-content: center;
       display:flex;
-      color: white;
-    }
-}
-@media (max-width:450px){
-  .bgt{
-    background-color: black;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    justify-content: center;
-    font-size: 10px;
- 
-    margin-top: 80px;
-    width: 135%;
-    margin-bottom: 50px;
-  
-  }
-  .en{
-
-    background-image: url(img/full.jpeg);
-    background-size: cover;
-    /* background-attachment: fixed; */
-    height: 500px;
-    width: 135%;
-    
-    }
-    .ab{
-      margin-top: 80%;
-      position: absolute;
-    margin-left: 15%;
-      text-align: center;
-      justify-content: center;
- 
       color: white;
     }
 }

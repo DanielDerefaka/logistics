@@ -7,10 +7,11 @@ import Domestic_logistics from "./pages/Domestic_logistics";
 import Dv from "./components/Dv";
 import Seemless from "./components/Seemless";
 import Screen from "./components/Screen";
+import Burdern from "./components/Burdern";
 
 function App() {
   return (
-    <body>
+    <body className="bd">
       <Navbar />
       <Dv />
       <div className="en">
@@ -33,6 +34,7 @@ function App() {
       </div>
 <Seemless />
 <Screen />
+<Burdern />
       <Routes>
         <Route path={"/Domestic_logistics"} element={<Domestic_logistics />} />
       </Routes>

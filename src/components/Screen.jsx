@@ -7,7 +7,7 @@ const Screen = () => {
   return (
     <section className="ng">
       <div className="screen">
-        <div className="container">
+   
           <div className="row">
             <div className="col-md-6">
               <h2 className="gg">
@@ -39,7 +39,7 @@ const Screen = () => {
             </div>
           </div>
         </div>
-      </div>
+    
     </section>
   );
 };
