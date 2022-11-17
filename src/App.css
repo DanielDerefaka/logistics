@@ -1,3 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+
+  background-color: #f3f4f6 !important;
+  font-family: 'inter', sans-serif !important;
+}
+
 .App {
   text-align: center;
 }
@@ -18,7 +27,13 @@
 .nnn{
   background-color: white !important;
   width: 100%;
-  z-index: 10000;
+  z-index: 10;
+  position: fixed;
+  filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+  
+}
+.nn3{
+
 }
 .bgj{
   background-color: black;
@@ -37,6 +52,19 @@
   text-decoration: none;
   color: black;
 }
+.bgt{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  font-size: 18px;
+position: absolute;
+  margin-top: 80px;
+  width: 100%;
+  margin-bottom: 50px;
+
+}
 .ul1{
   color: black ;
   font-weight: 500;
@@ -49,6 +77,31 @@
   padding: 10px 20px;
   font-size: 15px;
   text-decoration: none;
+  font-family: inherit;
+}
+.btn3{
+  background-color: #D5343A;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+margin-right: -120px;
+margin-left: 20px;
+font-weight: 500;
+width: 80%;
+font-family: inherit;
+
+}
+.btn2{
+  background-color: #D5343A;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: inherit;
 }
 .bb{
   text-decoration: none;
@@ -71,6 +124,10 @@
 .dropdown-menu{
   border: none;
   filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+}
+.ship{
+  width: 110px;
+  margin-right: 20px;
 }
 .dropdown-item:hover{
   color: red;
@@ -99,6 +156,47 @@
   color: #61dafb;
 }
 
+
+
+
+.en{
+
+background-image: url(img/full.jpeg);
+background-size: cover;
+/* background-attachment: fixed; */
+height: 500px;
+width: 100%;
+background-blend-mode: multiply;
+background-color: grey;
+
+}
+.inn{
+  background-color: white;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 30%;
+  padding: 15px 140px;
+  border-radius: 5px;
+  display: inline-flex;
+ 
+  
+}
+.ab{
+  margin-top: 28%;
+  position: absolute;
+margin-left: 32%;
+  text-align: center;
+  justify-content: center;
+  display:flex;
+  color: white;
+}
+.form2{
+  width: 320px;
+  height: 45px;
+ margin-left: -120px;
+ border: none;
+
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -114,4 +212,103 @@
     margin: 5px;
   
   }
+  .ship{
+    width:80px;
+  }
+  .bgt{
+    font-size: 13px ;
+  }
+  .btn2{
+   
+    border: none;
+    padding: 5px 20px;
+    
+  }
+  .inn{
+    background-color: white;
+   
+    margin-top: 60%;
+    margin-left: 2%;
+    padding: 5px 140px;
+    border-radius: 5px;
+    display: inline-flex;
+   
+   
+    
+  }
+  .ab{
+    margin-top: 74%;
+    position: absolute;
+  margin-left: 10%;
+    text-align: center;
+    justify-content: center;
+    display:flex;
+    color: white;
+  }
+}
+@media (max-width:500px){
+  .bgt{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: 13px;
+ 
+    margin-top: 80px;
+    width: 105%;
+    margin-bottom: 50px;
+  
+  }
+  .en{
+
+    background-image: url(img/full.jpeg);
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 500px;
+    width: 110%;
+    
+    }
+    .ab{
+      margin-top: 74%;
+      position: absolute;
+    margin-left: 10%;
+      text-align: center;
+      justify-content: center;
+      display:flex;
+      color: white;
+    }
+}
+@media (max-width:450px){
+  .bgt{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: 10px;
+ 
+    margin-top: 80px;
+    width: 135%;
+    margin-bottom: 50px;
+  
+  }
+  .en{
+
+    background-image: url(img/full.jpeg);
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 500px;
+    width: 135%;
+    
+    }
+    .ab{
+      margin-top: 80%;
+      position: absolute;
+    margin-left: 15%;
+      text-align: center;
+      justify-content: center;
+ 
+      color: white;
+    }
 }
