@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Domestic_logistics from "./pages/Domestic_logistics";
 import Dv from "./components/Dv";
 import Seemless from "./components/Seemless";
+import Screen from "./components/Screen";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         </div>
       </div>
 <Seemless />
+<Screen />
       <Routes>
         <Route path={"/Domestic_logistics"} element={<Domestic_logistics />} />
       </Routes>

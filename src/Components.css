@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+body{
+    width: 100%;
+}
 .seem{
     text-align: center;
     margin-top: 40px;
@@ -36,6 +38,68 @@
     color: grey;
     margin-left: 10px;
 }
-container{
-    margin-bottom: 20px;
+
+/* .Screen */
+.screen{
+    margin-top: 10%;
+  
+    height: 600px;
+    width: 100%;
+    padding:  0px 100px;
 }
+.imga{
+    margin-top: 60px;
+}
+.gg{
+    color: white;
+    margin-top: 50%;
+    font-weight: 700;
+    font-size: 35px;
+}
+.ng{
+    background-color: black;
+}
+.btnp{
+    background-color: #D5343A;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: inherit;
+    border-radius: 5px;
+  }
+.btnp2{
+    background-color:white;
+    color: black;
+    border: none;
+    padding: 15px 20px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: inherit;
+    border-radius: 5px;
+  }
+  .icond{
+    font-size: 30px;
+  }
+  .sp2{
+    margin-left: 20px;
+font-weight: 900;
+font-size: 20px;
+  }
+  .h{
+    margin-left: 20px;
+  }
+
+  @media(max-width:500px){
+    .btnp2{
+       margin-top: 30px;
+      }
+      .imga{
+        width: 100%;
+      }
+      .gg{
+        font-size: 20px;
+        margin-top: 5px;
+      }
+  }
