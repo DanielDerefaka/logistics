@@ -18,12 +18,12 @@ const Navbar = () => {
             <Link  to = {"/"}> Service Provider</Link> 
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#"> <Link  to = {"/Domestic_logistics"}> Domestic Logistic</Link> </a></li>
-              <li><a class="dropdown-item" href="#"> <Link  to = {"/"}> Coperate Logistics</Link></a></li>
+              <li><a class="dropdown-item" href="#"> <Link  to = {"/domestic_logistics"}> Domestic Logistic</Link> </a></li>
+              <li><a class="dropdown-item" href="#"> <Link  to = {"/service"}> Coperate Logistics</Link></a></li>
         
-              <li><a class="dropdown-item" href="#"> <Link  to = {"/"}> Overseas Shipping</Link> </a></li>
-              <li><a class="dropdown-item" href="#"> <Link  to = {"/"}> E-Commerce Logistics</Link> </a></li>
-              <li><a class="dropdown-item" href="#"> <Link  to = {"/"}> Wallet and Added Services</Link> </a></li>
+              <li><a class="dropdown-item" href="#"> <Link  to = {"/oversees"}> Overseas Shipping</Link> </a></li>
+              <li><a class="dropdown-item" href="#"> <Link  to = {"/ecommerce"}> E-Commerce Logistics</Link> </a></li>
+              <li><a class="dropdown-item" href="#"> <Link  to = {"/walled"}> Wallet and Added Services</Link> </a></li>
             </ul>
           </li>
           

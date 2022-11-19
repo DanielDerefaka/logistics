@@ -3,42 +3,31 @@ import "./App.css";
 import './Components.css';
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Home from "./pages/Home";
 import Domestic_logistics from "./pages/Domestic_logistics";
-import Dv from "./components/Dv";
-import Seemless from "./components/Seemless";
-import Screen from "./components/Screen";
-import Burdern from "./components/Burdern";
+import Service from "./pages/Service";
+import Oversees from "./pages/Oversees";
+import Ecommerce from "./pages/Ecommerce";
+import Walled from "./pages/Walled";
 
 function App() {
   return (
     <body className="bd">
-      <Navbar />
-      <Dv />
-      <div className="en">
-        <div className="inn">
-          <input
-            className="form2"
-            type="text"
-            name=""
-            id=""
-            placeholder="Input tracking ID / Alpha code"
-          />
-          <button class="btn3 btn-secondary bb" type="submit">
-            {" "}
-            Search
-          </button>
-        </div>
-        <div className="ab">
-          <p> Track shipment / Find and ship a product using Alphacode</p>
-        </div>
-      </div>
-<Seemless />
-<Screen />
-<Burdern />
+      <Navbar className="nj" />
+ 
+
+
       <Routes>
-        <Route path={"/Domestic_logistics"} element={<Domestic_logistics />} />
+        <Route path={"/"} element={<Home />} />
+        <Route path={"/domestic_logistics"} element={<Domestic_logistics />} />
+        <Route path={"/service"} element={<Service />} />
+        <Route path={"/oversees"} element={<Oversees />} />
+        <Route path={"/ecommerce"} element={<Ecommerce />} />
+        <Route path={"/walled"} element={<Walled />} />
       </Routes>
-    </body>
+
+      <Footer />
+    </body> 
   );
 }
 
